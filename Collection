@@ -1,0 +1,22 @@
+import java.util.List;
+import java.util.Set;
+import java.util.*;
+import java.util.LinkedList;
+import java.util.ArrayList;
+public class Main {
+    public static void main(String[] args) {
+        List<String> fruits = new ArrayList<>();
+        fruits.add("яблоко");
+        fruits.add("ананас");
+        fruits.add("вишня");
+        fruits.add("яблоко");
+
+        HashSet<String> set = new HashSet<>(fruits);
+        fruits.clear();
+            fruits.addAll(set);
+        System.out.println(fruits);
+
+
+    }
+}
+//[яблоко, ананас, вишня]
