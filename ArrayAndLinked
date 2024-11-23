@@ -62,6 +62,11 @@ public class Main {
     }
 }
 
+//Время доступа для ArrayList: 252000 нс
+//Время доступа для LinkedList: 502156959 нс
+//ArrayList быстрее, чем LinkedList.
+
+
 
 
 
