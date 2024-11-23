@@ -1,0 +1,26 @@
+import java.util.Map;
+import java.util.*;
+import java.util.HashMap;
+//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+public class Main {
+    public static void main(String[] args) {
+        HashMap<String,Integer>first = new HashMap<>();
+        first.put("one", 1 );
+        first.put("two", 2 );
+       first.put("three", 3 );
+        first.put("four", 4 );
+        HashMap<Integer, String>newMap = new HashMap<>();
+        for (Map.Entry<String, Integer> change: first.entrySet()){
+            newMap.put(change.getValue(),change.getKey());
+
+        }
+        System.out.println(first);
+        System.out.println(newMap);
+
+
+
+
+
+    }
+}
